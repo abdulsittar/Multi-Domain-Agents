@@ -1,0 +1,155 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+llama2-qlora-output-tech-RE/
+emotion_charts/
+llama2-7b-chat-qlora-out/
+data/
+python_history.txt
+
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Data directories
+data/
+raw_data/
+processed_data/
+synthetic_data/
+venv/
+results/
+.env    
+
+
+
+# API keys and secrets
+*.key
+*.pem
+secrets.yaml
+config/secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Logs
+*.log
+logs/
+
+# Results and outputs
+results/
+outputs/
+experiments/
+
+# Model files (usually large)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+
+# Large data files
+*.csv.gz
+*.json.gz
+*.parquet
