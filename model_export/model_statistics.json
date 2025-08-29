@@ -1,0 +1,35 @@
+{
+  "data_stats": {
+    "total_records": 88330,
+    "unique_agents": 2,
+    "agent_list": [
+      "AI_Agent",
+      "Crypto_Agent"
+    ],
+    "action_distribution": {
+      "post": 83219,
+      "reply": 5111
+    },
+    "date_range": {
+      "start": "2019-04-30T22:07:01",
+      "end": "2020-04-30T21:50:10"
+    }
+  },
+  "model_info": {
+    "context_window": 3,
+    "num_agents": 2,
+    "agents": [
+      "AI_Agent",
+      "Crypto_Agent"
+    ],
+    "reply_rates": {
+      "AI_Agent": 0.0887145792931778,
+      "Crypto_Agent": 0.038043175099012665
+    },
+    "avg_time_gaps": {
+      "AI_Agent": 6.423833566938498,
+      "Crypto_Agent": 6.3032249107240865
+    }
+  },
+  "training_date": "2025-08-29T20:53:08.863999"
+}
