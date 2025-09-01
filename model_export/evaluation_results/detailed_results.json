@@ -1,0 +1,63 @@
+{
+  "agent_metrics": {
+    "accuracy": 0.4675,
+    "precision_weighted": 0.21855625,
+    "recall_weighted": 0.4675,
+    "f1_weighted": 0.2978620102214651,
+    "precision_per_class": {
+      "AI_Agent": 0.0,
+      "Crypto_Agent": 0.4675
+    },
+    "recall_per_class": {
+      "AI_Agent": 0.0,
+      "Crypto_Agent": 1.0
+    },
+    "f1_per_class": {
+      "AI_Agent": 0.0,
+      "Crypto_Agent": 0.637137989778535
+    },
+    "support_per_class": {
+      "AI_Agent": 1065,
+      "Crypto_Agent": 935
+    }
+  },
+  "action_metrics": {
+    "accuracy": 0.7325,
+    "precision_weighted": 0.53655625,
+    "recall_weighted": 0.7325,
+    "f1_weighted": 0.6194011544011544,
+    "precision_per_class": {
+      "AI_Agent": 0.0,
+      "Crypto_Agent": 0.0
+    },
+    "recall_per_class": {
+      "AI_Agent": 0.0,
+      "Crypto_Agent": 0.0
+    },
+    "f1_per_class": {
+      "AI_Agent": 0.0,
+      "Crypto_Agent": 0.0
+    },
+    "support_per_class": {
+      "AI_Agent": 0,
+      "Crypto_Agent": 0
+    }
+  },
+  "time_metrics": {
+    "mae_minutes": 5.326400394583443,
+    "rmse_minutes": 5.855566415298524,
+    "accuracy_5min": 0.303,
+    "accuracy_15min": 0.9915,
+    "accuracy_30min": 0.9995,
+    "accuracy_1hour": 1.0
+  },
+  "test_sequences_count": 2000,
+  "model_parameters": {
+    "context_window": 3,
+    "agents": [
+      "AI_Agent",
+      "Crypto_Agent"
+    ],
+    "prediction_method": "deterministic"
+  }
+}

@@ -1,0 +1,8 @@
+Dataset Statistics,Value
+Total Test Samples,2000
+AI_Agent Samples,1065
+Crypto_Agent Samples,935
+Post Actions,1465
+Reply Actions,535
+Date Range (days),3
+Average Time Gap (min),2.19
