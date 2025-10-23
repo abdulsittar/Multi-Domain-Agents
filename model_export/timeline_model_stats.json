@@ -1,0 +1,41 @@
+{
+  "model_type": "Timeline-Based Multi-Agent Predictor",
+  "training_items": 88330,
+  "features": "Timeline sequence + lightweight text features",
+  "predictions": [
+    "next_agent",
+    "action_type",
+    "emotion",
+    "topic",
+    "sentiment",
+    "time_delay"
+  ],
+  "evaluation_results": {
+    "agent": {
+      "accuracy": 0.6133347602739726,
+      "f1_score": 0.579072422760761
+    },
+    "action_type": {
+      "accuracy": 0.9684289383561644,
+      "f1_score": 0.9698495683921989
+    },
+    "emotion": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "topic": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "sentiment": {
+      "mae": 0.35331770373099547,
+      "mse": 0.17822474800432322
+    },
+    "time_delay": {
+      "mae": 50.665262150829584,
+      "mse": 6564.718181963192
+    }
+  },
+  "model_path": "model_export/timeline_model.pkl",
+  "training_date": "2025-09-01T19:00:15.970415"
+}
